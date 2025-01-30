@@ -10,10 +10,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
-      <Hero 
-        backgroundImage='/images/hero-placeholder.jpg'
-        backgroundOpacity={60}
-      />
+      <Hero />
       <PropertyDetails />
       <Features />
       <Facilities /> 

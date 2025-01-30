@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home')
